@@ -1,10 +1,12 @@
-#pragma once                                    //ensure only one BSTNode header
+#pragma once                                        //ensure only one BSTNode header
 
 #include <iostream>
 #include <string>
+#include <vector>
+#include <fstream>
 using namespace std;
 
-class BSTNode{                                  //for BST_Tree. Each node signifies a user.
+class BSTNode{                                      //for BST_Tree. Each node signifies a user.
     public:
         BSTNode * left;
         BSTNode * right;
@@ -14,6 +16,6 @@ class BSTNode{                                  //for BST_Tree. Each node signif
         int pswd;
         int balance;
 
-        BSTNode();                              //Default constructor
+        BSTNode();                                   //Default constructor
         BSTNode(string, string, int, int, int);      //Parametrized constructor
 };
