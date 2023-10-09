@@ -14,6 +14,6 @@ class BSTNode{                                  //for BST_Tree. Each node signif
         int pswd;
         int balance;
 
-        BSTNODE();                              //Default constructor
-        BSTNODE(string, string, int, int);      //Parametrized constructor
-}
+        BSTNode();                              //Default constructor
+        BSTNode(string, string, int, int);      //Parametrized constructor
+};
